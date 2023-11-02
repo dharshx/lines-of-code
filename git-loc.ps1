@@ -2,7 +2,7 @@
 $fileExtensions = @('.py', '.js', '.ts', '.cs') # specify the file extenstions you desire to find the LOC for
 $orgName = '' # enter your org name
 $initialDir = Get-Location # store the initial directory path
-$repos = Get-Content -Path "loc-repos.txt" # read the list of repos from the text file
+$repos = Get-Content -Path "" # read the list of repos from the text file, mention the txt file within the ""
  
 $csvPath = 'loc.csv' # give the path/name of the csv file
 "Repo,File,LinesOfCode" | Out-File $csvPath # choose your desired data you want to upload to your csv file
