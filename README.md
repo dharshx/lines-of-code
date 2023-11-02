@@ -44,4 +44,3 @@ I hope you find this tool useful.
 If you encounter any issues or have questions, please feel free to leave a comment or submit an issue. 
 I'll be happy to help :)
 
-# *Thank you for using the Lines of Code (LOC) Generator!*
